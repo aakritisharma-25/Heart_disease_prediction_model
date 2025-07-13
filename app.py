@@ -105,9 +105,10 @@ if page == "Patient Input":
 # Page 2: Model Evaluation
 elif page == "Model Evaluation":
     st.title("Model Evaluation Metrics")
-    st.image(r"C:\Users\ACER\Desktop\ml course\Heart_disease\confusion_matrix.png", caption="Confusion Matrix")
-    st.image(r"C:\Users\ACER\Desktop\ml course\Heart_disease\precision.png", caption="Precision, Recall, F1 by Class")
-    st.image(r"C:\Users\ACER\Desktop\ml course\Heart_disease\model_compare.png", caption="Train/Test Accuracy Table")
+    st.image("confusion_matrix.png", caption="Confusion Matrix")
+
+    st.image("precision.png", caption="Precision, Recall, F1 by Class")
+    st.image("model_compare.png", caption="Train/Test Accuracy Table")
 
     st.markdown("### Classification Report")
     st.code("""
