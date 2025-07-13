@@ -4,5 +4,4 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-numpy==1.x.x
-scikit-learn==1.x.x
+
