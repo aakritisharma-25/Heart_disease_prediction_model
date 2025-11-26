@@ -1,4 +1,5 @@
-# ❤️ Heart Disease Prediction Model
+# CardioPredict
+## ❤️ Heart Disease Prediction Model
 
 A Machine Learning-based web app built with Streamlit that predicts the possibility of heart disease based on user input data like age, cholesterol level, chest pain type, etc.
 
